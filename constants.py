@@ -3,5 +3,5 @@
 PEOPLE_LIST = "resources/people.txt"
 DEAD_LIST = "resources/dead.txt"
 SENTENCES_LIST = "resources/sentences.txt"
+IMAGE = "resources/people.png"
 LYNCHING = 69
-FI = 0
