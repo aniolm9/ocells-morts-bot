@@ -1,7 +1,7 @@
 import sys
 
 try:
-    import secret_settings.py
+    import secret_settings
 except:
     sys.exit("secret_settings.py not found.")
 
