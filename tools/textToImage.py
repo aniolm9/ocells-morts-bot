@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 from PIL import Image, ImageDraw, ImageFont
 import tools.fileProcessor as fp
-import constants
+import settings
 
 def drawImage(imgFile):
-    people = fp.readFile(constants.PEOPLE_LIST)
-    dead = fp.readFile(constants.DEAD_LIST)
+    people = fp.readFile(settings.PEOPLE_LIST)
+    dead = fp.readFile(settings.DEAD_LIST)
 
     img = Image.new('RGB', (1080, 720), color=(255, 255, 255))
     draw = ImageDraw.Draw(img)
