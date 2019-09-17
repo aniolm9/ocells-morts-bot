@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import tools.numberGenerator as ng
 
 def selectPerson(people, dead):

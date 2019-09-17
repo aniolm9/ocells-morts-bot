@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import random
 
 # Number used to decide if it's a normal kill or a lynching.
