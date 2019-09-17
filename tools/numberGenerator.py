@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import random
-import constants
 import tools.fileProcessor as fp
 
 # Number used to decide if it's a normal kill or a lynching.
