@@ -1,5 +1,6 @@
 import tweepy
 import settings
+import sys
 
 def createApi():
     # Authenticate to Twitter
@@ -8,6 +9,11 @@ def createApi():
 
     # Create API object
     api = tweepy.API(auth)
+
+    try:
+        api.verify_credentials()
+    except:
+        sys.exit("Error during API authentication")
 
     return api
 
