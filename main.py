@@ -7,7 +7,7 @@ import time
 
 def runnable(api):
     text = game.kill()
-    print (text)
+    print (text, flush=True)
     bot.newTweet(api, text, settings.IMAGE)
 
 def main():
