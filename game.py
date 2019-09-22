@@ -20,7 +20,7 @@ def kill():
         killer = ls.selectPerson(people, dead)
         victim = ls.selectPerson(people, dead)
         beerSentence = victim + " deu una cervesa a " + killer + "."
-        string = ""
+        string = "."
 
         if killer == victim:
             string += victim + " ha estat víctima d'un apunyalament a Barcelona."
